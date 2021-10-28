@@ -22,6 +22,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*define focus style*/
+:focus{
+    outline:0;
+}
 
 *{
     box-sizing: border-box;
@@ -34,12 +38,125 @@ footer, header, hgroup, menu, nav, section {
 /*General Styles*/
 html{
     font-size: 62.5%;
-}
-body{
-    font-size:1.8rem;
-    line-height:1.5;
-    color:#000000;
-    background-color:#f5eaf4;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
+    
+.section{
+    padding: 4% 0;
+}
+
+a{
+    color:#000000;
+    text-decoration: blue;
+}
+a:hover{
+    color:lightseagreen;
+    background-color: rgb(108, 170, 108)yellow;
+}
+header{
+    display:flex;
+    width:100%;
+    font-size:2.5;
+    justify-content:right;
+    margin-top: 2%;
+
+
+}
+body{
+    background-color:rgb(228, 194, 194)
+}
+header p{
+    padding-left: 3%;
+    width:100%;
+}
+nav {
+    
+    display:flex;
+    position:fixed;
+    justify-content:flex-end;
+    justify-content:space-between;
+    width:40%;
+    top:0;
+    z-index: 999;
+    background-color: rgb(235, 173, 150);
+
+   }
+   nav a{
+       width:50%;
+       display:flex;
+       justify-content: center;
+      align-items: center;
+      font-size:1 rem;
+      margin:2%;
+   }
+.first{
+    display:flex;
+    align-items: center;
+    width:80%;
+    margin:0 10%;
+
+}
+.titlePic{
+    height:60vh;
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:0;
+    border-radius:50%;
+
+}
+ .title{
+     justify-content:center;
+     color:coral;
+     font-size: 3.5rem;
+  
+
+ }
+ .title h2{
+     font-size:2.5rem ;
+     text-align:center;
+ }
+
+
+
+   .second {
+       display:flex;
+       flex-wrap:wrap;
+       justify-content:space-around;
+       width:100%;
+       
+    
+   }
+   .section div{
+       display:flex;
+       flex-direction:column;
+       justify-content: center;
+       margin:4%;
+       width:20%;
+   }
+   .section div img{
+       width:100%;
+       
+   }
+.section div h2{
+    text-align:center;
+}
+   footer div{
+       justify-content:center;
+       padding:1%;
+       border-radius:25%;
+       background-color:rgb(235, 173, 150) ;
+   }
+   footer a{
+       padding:1%;
+       background-color: lightcoral;
+   }
+   footer{
+       background-color:rgb(235, 173, 150);
+   }
