@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey; 
+    /*border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -49,7 +49,7 @@ html{
 
 a{
     color:#000000;
-    text-decoration: blue;
+    text-decoration:none;
 }
 a:hover{
     color:lightseagreen;
@@ -58,7 +58,7 @@ a:hover{
 header{
     display:flex;
     width:100%;
-    font-size:2.5;
+    font-size:2rem;
     justify-content:right;
     margin-top: 2%;
 
@@ -68,6 +68,7 @@ body{
     background-color:rgb(228, 194, 194)
 }
 header p{
+    
     padding-left: 3%;
     width:100%;
 }
@@ -84,22 +85,24 @@ nav {
 
    }
    nav a{
-       width:50%;
+       width:25%;
        display:flex;
        justify-content: center;
       align-items: center;
-      font-size:1 rem;
+      font-size: 2.5rem;
       margin:2%;
    }
+   
 .first{
     display:flex;
-    align-items: center;
     width:80%;
     margin:0 10%;
+    align-items: center;
 
 }
 .titlePic{
-    height:60vh;
+    background-image: url(https://i.picsum.photos/id/388/200/200.jpg?hmac=yc4V5jCOMR-l634JzXmANfvSGFGgYWHQN4aKA69RvZo);
+    height:50vh;
     display:flex;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,23 +111,24 @@ nav {
     align-items: center;
     width:100%;
     margin-bottom:0;
-    border-radius:50%;
+    border-radius: 50%;
+    
 
 }
  .title{
      justify-content:center;
      color:coral;
      font-size: 3.5rem;
+     justify-content: center;
   
 
  }
  .title h2{
-     font-size:2.5rem ;
+     font-size:2.5rem;
      text-align:center;
+
  }
-
-
-
+ 
    .second {
        display:flex;
        flex-wrap:wrap;
@@ -133,30 +137,30 @@ nav {
        
     
    }
-   .section div{
+   .second div{
        display:flex;
        flex-direction:column;
        justify-content: center;
        margin:4%;
        width:20%;
    }
-   .section div img{
+   .second div img{
        width:100%;
+       border-radius:10%;
+       border: 5px salmon;
        
    }
-.section div h2{
+.second div h2{
     text-align:center;
+    font-size: medium;
 }
    footer div{
        justify-content:center;
        padding:1%;
-       border-radius:25%;
        background-color:rgb(235, 173, 150) ;
    }
-   footer a{
-       padding:1%;
-       background-color: lightcoral;
-   }
-   footer{
-       background-color:rgb(235, 173, 150);
+  
+   .third{
+       display:flex;
+       justify-content: center;
    }
