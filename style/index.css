@@ -1,1 +1,166 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*define focus style*/
+:focus{
+    outline:0;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey; */
+}
+
+/*General Styles*/
+html{
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+    
+.section{
+    padding: 4% 0;
+}
+
+a{
+    color:#000000;
+    text-decoration:none;
+}
+a:hover{
+    color:lightseagreen;
+    background-color: rgb(108, 170, 108)yellow;
+}
+header{
+    display:flex;
+    width:100%;
+    font-size:2rem;
+    justify-content:right;
+    margin-top: 2%;
+
+
+}
+body{
+    background-color:rgb(228, 194, 194)
+}
+header p{
+    
+    padding-left: 3%;
+    width:100%;
+}
+nav {
+    
+    display:flex;
+    position:fixed;
+    justify-content:flex-end;
+    justify-content:space-between;
+    width:40%;
+    top:0;
+    z-index: 999;
+    background-color: rgb(235, 173, 150);
+
+   }
+   nav a{
+       width:25%;
+       display:flex;
+       justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      margin:2%;
+   }
+   
+.first{
+    display:flex;
+    width:80%;
+    margin:0 10%;
+    align-items: center;
+
+}
+.titlePic{
+    background-image: url(https://i.picsum.photos/id/388/200/200.jpg?hmac=yc4V5jCOMR-l634JzXmANfvSGFGgYWHQN4aKA69RvZo);
+    height:50vh;
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:0;
+    border-radius: 50%;
+    
+
+}
+ .title{
+     justify-content:center;
+     color:coral;
+     font-size: 3.5rem;
+     justify-content: center;
+  
+
+ }
+ .title h2{
+     font-size:2.5rem;
+     text-align:center;
+
+ }
+ 
+   .second {
+       display:flex;
+       flex-wrap:wrap;
+       justify-content:space-around;
+       width:100%;
+       
+    
+   }
+   .second div{
+       display:flex;
+       flex-direction:column;
+       justify-content: center;
+       margin:4%;
+       width:20%;
+   }
+   .second div img{
+       width:100%;
+       border-radius:10%;
+       border: 5px salmon;
+       
+   }
+.second div h2{
+    text-align:center;
+    font-size: medium;
+}
+   footer div{
+       justify-content:center;
+       padding:1%;
+       background-color:rgb(235, 173, 150) ;
+   }
+  
+   .third{
+       display:flex;
+       justify-content: center;
+   }
