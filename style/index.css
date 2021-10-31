@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 /*General Styles*/
 html{
     font-size: 62.5%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'cursive'  Courier, monospace;
     
 }
 
@@ -48,12 +48,13 @@ html{
 }
 
 a{
-    color:#000000;
+    color:#f0e7e7;
     text-decoration:none;
 }
 a:hover{
-    color:lightseagreen;
-    background-color: rgb(108, 170, 108)yellow;
+    color: rgb(102, 94, 94);
+    text-decoration: underline;
+    /*background-color: rgb(108, 170, 108)yellow;*/
 }
 header{
     display:flex;
@@ -65,10 +66,10 @@ header{
 
 }
 body{
-    background-color:rgb(228, 194, 194)
+    background-color:rgb(19, 12, 12);
+    color:white;
 }
 header p{
-    
     padding-left: 3%;
     width:100%;
 }
@@ -81,7 +82,7 @@ nav {
     width:40%;
     top:0;
     z-index: 999;
-    background-color: rgb(235, 173, 150);
+    /*background-color:rgb(51, 49, 49);*/
 
    }
    nav a{
@@ -89,10 +90,10 @@ nav {
        display:flex;
        justify-content: center;
       align-items: center;
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin:2%;
    }
-   
+
 .first{
     display:flex;
     width:80%;
@@ -101,8 +102,8 @@ nav {
 
 }
 .titlePic{
-    background-image: url(https://i.picsum.photos/id/388/200/200.jpg?hmac=yc4V5jCOMR-l634JzXmANfvSGFGgYWHQN4aKA69RvZo);
-    height:50vh;
+    background-image: url(https://i.picsum.photos/id/865/200/300.jpg?hmac=jCzg6busodS2mP_yK-Vt64bNfl6Sk3TUT0cSFMukwkU);
+    height:40vh;
     display:flex;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,14 +111,14 @@ nav {
     justify-content: center;
     align-items: center;
     width:100%;
-    margin-bottom:0;
-    border-radius: 50%;
+    margin-top:4%;
+   /* border-radius: 50%;*/
     
 
 }
  .title{
      justify-content:center;
-     color:coral;
+     color:rgb(20, 15, 13);
      font-size: 3.5rem;
      justify-content: center;
   
@@ -126,6 +127,7 @@ nav {
  .title h2{
      font-size:2.5rem;
      text-align:center;
+     font-style: ;
 
  }
  
@@ -135,32 +137,48 @@ nav {
        justify-content:space-around;
        width:100%;
        
+       
     
    }
    .second div{
        display:flex;
        flex-direction:column;
        justify-content: center;
-       margin:4%;
+       margin:6%;
        width:20%;
-   }
-   .second div img{
-       width:100%;
-       border-radius:10%;
-       border: 5px salmon;
+       
        
    }
+   /*.second div img{
+       width:100%;
+       border-radius:15%;
+       border: 5px salmon;
+       
+   }*/
 .second div h2{
     text-align:center;
-    font-size: medium;
+    font-size: 20px;
+    text-decoration: bold;
+    margin-top:3%;
+    
 }
    footer div{
+       height:8vh;
        justify-content:center;
-       padding:1%;
-       background-color:rgb(235, 173, 150) ;
+       background-color:rgb(51, 49, 49) ;
+       align-items: center;
    }
   
    .third{
        display:flex;
        justify-content: center;
    }
+   .third button{
+       background-color: rgb(121, 115, 115);
+       border-radius: 5px;
+       width:5%;
+       font-size: 15px;
+       border-color: rgb(15, 13, 13);
+
+       color:rgb(255, 255, 255);
+       }
