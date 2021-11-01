@@ -151,7 +151,7 @@ nav {
        display:flex;
        flex-direction:column;
        justify-content: center;
-       margin:6%;
+       margin:5%;
        width:20%;
        
        
@@ -188,4 +188,37 @@ nav {
        border-color: rgb(15, 13, 13);
 
        color:rgb(10, 8, 8);
+       }
+
+
+
+     
+     
+       /*Responsive Styles*/
+
+
+
+
+
+
+       /*Tablet view - 800px*/
+       @media(max-width:800px){
+           .third button {
+               width:13%;
+           }
+           .second div {
+               margin:7%;
+           }
+
+       }
+
+
+
+
+
+
+
+       /*Mobile view - 500px*/
+       @media(max-width:500px){
+
        }
