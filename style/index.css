@@ -167,7 +167,7 @@ nav {
        margin:5%;
        width:20%;
         } 
-        .photo{
+   /*.photo{
             display: flex;
             flex-direction:row;
             flex-wrap: wrap;
@@ -175,7 +175,7 @@ nav {
         }
         .photo div{
             width: 40%;
-        }
+        }*/
    
 .second div h2{
     text-align:center;
@@ -276,7 +276,5 @@ nav {
                border-radius: 8px;
            }
            
-        .photo div{
-            width:100%;
-        }
+    
         }
