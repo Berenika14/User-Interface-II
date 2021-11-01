@@ -48,11 +48,11 @@ html{
 }
 
 a{
-    color:#f0e7e7;
+    color:#0a0808;
     text-decoration:none;
 }
 a:hover{
-    color: rgb(102, 94, 94);
+    color: rgb(88, 87, 86);
     text-decoration: underline;
     /*background-color: rgb(108, 170, 108)yellow;*/
 }
@@ -66,8 +66,8 @@ header{
 
 }
 body{
-    background-color:rgb(19, 12, 12);
-    color:white;
+    background-color:rgb(230, 242, 245);
+    color:rgb(7, 6, 6);
 }
 header p{
     padding-left: 3%;
@@ -130,7 +130,14 @@ nav {
      font-style: ;
 
  }
- 
+ .title button{background-color: rgb(226, 241, 250);
+    border-radius: 5px;
+    width: 50%;
+    font-size: 19px;
+    border-color: rgb(15, 13, 13);
+    color:rgb(10, 8, 8);
+
+ }
    .second {
        display:flex;
        flex-wrap:wrap;
@@ -165,7 +172,7 @@ nav {
    footer div{
        height:8vh;
        justify-content:center;
-       background-color:rgb(51, 49, 49) ;
+       background-color:rgb(199, 224, 240) ;
        align-items: center;
    }
   
@@ -174,11 +181,11 @@ nav {
        justify-content: center;
    }
    .third button{
-       background-color: rgb(121, 115, 115);
+       background-color: rgb(226, 241, 250);
        border-radius: 5px;
-       width:5%;
-       font-size: 15px;
+       width:7%;
+       font-size: 18px;
        border-color: rgb(15, 13, 13);
 
-       color:rgb(255, 255, 255);
+       color:rgb(10, 8, 8);
        }
